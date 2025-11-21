@@ -9,7 +9,7 @@ export function FortuneCookie({ isOpen, onClick, currentFortune = "" }: FortuneC
   return (
     <div 
       className="min-h-80 min-w-72 relative mx-auto cursor-pointer bg-red-200 rounded-full flex items-center justify-center"
-      onClick={onClick}
+      onClick={onClick} 
     >
       {!isOpen ? (
         // BISCOITO FECHADO
